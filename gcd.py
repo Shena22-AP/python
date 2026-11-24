@@ -1,0 +1,5 @@
+a = int(input("enter first number:"))
+b = int(input("enter second number:"))
+while b:
+  a , b = b , a % b
+print("GCD = ", a )
